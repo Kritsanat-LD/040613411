@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+body{
+    background-color: #3c5044;
+    margin: 0;
+    padding: 0;
+}
+  
+  .top-text{
+    font-family:'Kanit', sans-serif ;
+    font-size: 4rem;
+    position: absolute;
+    color: #faebd7;
+    margin: 200px auto 0 auto;
+  }
+
+  .info-text{
+    font-family:'Kanit', sans-serif ;
+    padding-bottom: 30px;
+  }
+
+  .herb-text{
+    font-family:'Kanit', sans-serif ;
+    color: #faebd7;
+  }
+
+  .size-text1{
+    font-size: 20px;
+  }
+
+  .top-img{
+    width:1252px; 
+    height:500px;
+  }
+
+  .container {
+    margin: 50px auto 0 auto;
+    width: 1252px;
+    background-color: #617868;
+    border-radius: 5px;
+  }
+
+  .mid {
+    text-align: center;
+  }
+
+  .img-herb{
+    margin-top: 50px;
+    width:40%;
+    height: 300px;
+    border-radius: 5px;
+  }
+
+  .yor-nar{
+    margin-left: 70px;
+  }
+
+  .krob1{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .krob2{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
