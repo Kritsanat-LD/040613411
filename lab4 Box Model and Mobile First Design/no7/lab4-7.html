@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<style>
+		.menu {
+			background-color: black;
+			color: white;
+			text-align: center;
+			flex-basis: 30%;
+		}
+		.content {
+			background-color: gainsboro;
+			flex-basis: 60%;
+		}
+		.ads {
+			background-color: cornflowerblue;
+			flex-basis: 10%;
+		}
+		.flex { 
+			display: flex; 
+		}
+		@media (max-width : 480px) {
+			.flex { display: flex		; }
+			.menu { width: auto; }
+			.content { width: auto; }
+			.ads { width: auto; }
+		}
+	</style>
+</head>
+<body>
+	<header class="flex">
+		<nav class="menu">Menu1<br>Menu2<br>Menu3<br></nav>
+		<nav class="content">In publishing, art, and communication, … as speech, writing or any of various arts".</nav>
+		<nav class="ads">advertising<br>advertising<br>advertising<br></nav>
+	</header>
+</body>
+</html>
