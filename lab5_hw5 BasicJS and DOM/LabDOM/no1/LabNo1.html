@@ -1,0 +1,16 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script>
+        function plus(){
+            var ans = parseInt(document.getElementById("i1").value) +  parseInt(document.getElementById("i2").value);
+            var a = document.getElementById("ans")
+            a.value = ans;
+        }
+    </script>
+</head>
+    <body >
+        <input type="number" id="i1"> + <input type="number" id="i2"> = <input type="number" id="ans">
+        <button onclick="plus()">Go GO</button>
+    </body>
+</html>
