@@ -2,21 +2,24 @@
 <head>
     <meta charset="utf-8">
     <script>
-        function green(){
+        function green1(){
             var name = document.getElementById("name")
             name.style.color = "green"
-
+        }
+        function green2(){
             var age = document.getElementById("age")
             age.style.color = "green"
-
+        }
+        function green3(){
             var bd = document.getElementById("bd")
             bd.style.color = "green"
         }
+
     </script>
 </head>
     <body >
-        Name: <input type="text" id="name" onchange="green()"><br>
-        Age: <input type="number" id="age"><br>
-        Birthdate: <input type="text" id="bd"><br>
+        Name: <input type="text" id="name" onchange="green1()"><br>
+        Age: <input type="number" id="age" onchange="green2()"><br>
+        Birthdate: <input type="text" id="bd" onchange="green3()"><br>
     </body>
 </html>
