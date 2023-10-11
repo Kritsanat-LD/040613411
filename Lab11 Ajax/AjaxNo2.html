@@ -1,0 +1,28 @@
+<html><head><meta charset="utf-8">
+    <script>
+        var xmlHttp;
+    
+        function send() {
+            xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = showResult;
+    
+            var key = document.getElementById("keyword").value;
+
+            var url = "AjaxNo2.php?keyword=" + key;
+           
+           xmlHttp.open("GET", url);
+           xmlHttp.send();   
+       }
+       function showResult() {
+           if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+               document.getElementById("result").innerHTML = xmlHttp.responseText;
+           }
+       }
+    </script></head>
+    <body>
+        <h1>Member</h1>
+        <input type="text" id="keyword" onkeyup="send()">
+         <span id="result"></span>
+    </body></html>
+    
+    
